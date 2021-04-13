@@ -2,19 +2,22 @@
     #item-1{ background-color: red; }
     #item-2{ background-color:green; }
     #item-3{ background-color: pink; }
-    #item-4{ background-color: purple; }
+    #item-4{ background-color: rgb(224, 185, 224); }
     .item {
         text-align: center;
         box-sizing: border-box;
-        padding: 20px;
-        width: 25%;
+        padding: 80px;
+        width: 20px;
+        height: 80px;
       }
       .content {
         height: 100vh;
         background-color: yellow;
         display: flex;
-        justify-content:space-around;
-        align-items: center;
+        justify-content:center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
       }
 
 
