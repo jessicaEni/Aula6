@@ -2,7 +2,14 @@
     #item-1{ background-color: red; }
     #item-2{ background-color:green; }
     #item-3{ background-color: pink; }
-    #item-4{ background-color: rgb(224, 185, 224); }
+    #item-4{ background-color: gray; }
+    #item-5{ background-color: purple; }
+    #item-6{ background-color: blue; }
+    #item-7{ background-color: orange; }
+    #item-8{ background-color: rgb(104, 77, 139); }
+    #item-9{ background-color: darkturquoise; }
+   
+
     .item {
         text-align: center;
         box-sizing: border-box;
@@ -17,7 +24,7 @@
         justify-content:center;
         align-items: flex-start;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction:row;
       }
 
 
